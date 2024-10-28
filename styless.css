@@ -1,0 +1,95 @@
+.x {
+  color: red;
+}
+.B {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.A {
+  margin-top: 200px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+p. {
+  color: blueviolet;
+}
+.A:hover {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("https://www.resabo.com/cr.fwk/images/hotels/Hotel-1876-20240102-094324.jpg");
+  background-size: cover; /* L'image couvre toute la page */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+  height: 100%; /* Prend toute la hauteur de la page */
+  color: white; /* Couleur du texte */
+  text-align: center; /* Centre le texte */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Fond semi-transparent pour le texte */
+  padding: 20px; /* Ajout de padding */
+  border-radius: 10px; /* Coins arrondis */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
